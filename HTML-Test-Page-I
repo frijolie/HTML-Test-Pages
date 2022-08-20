@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>HTML5 Test Page</h1>
+        <p>This is a test page filled with common HTML elements that is intended to be a visual representation of how
+            these elements will look with your CSS styles applied</p>
+    </header>
+    <main>
+        <section id="section-text">
+            <h2 id="text">Text</h2>
+            <h3 id="headings">Headings</h3>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <h3 id="paragraphs">Paragraphs</h3>
+            <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit
+                of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more
+                sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of
+                formal writing, used to organize longer prose.</p>
+            <h3 id="blockquotes">Blockquotes</h3>
+            <blockquote>
+                <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document,
+                    that is set off from the main text as a paragraph, or block of text.</p>
+                <p>It is typically distinguished visually using indentation and a different typeface or smaller size
+                    quotation. It may or may not include a citation, usually placed at the bottom.</p>
+                <cite>Said no one, ever</cite>
+            </blockquote>
+            <p>A paragraph of text here to ensure that these blockquotes are separated. Hopefully this will be adequate
+                to provide ample space to spread 'em out.</p>
+            <figure>
+                <blockquote>
+                    <p>That's no moon. That's a space station!</p>
+                </blockquote>
+                <figcaption>Obi Wan Kenobi <cite>A New Hope</cite></figcaption>
+            </figure>
+            <h3 id="definition-list">Definition List</h3>
+            <dl>
+                <dt>Definition List Title</dt>
+                <dd>This is a definition list division</dd>
+            </dl>
+            <dl>
+                <dt>Another Definition List Title</dt>
+                <dd>This is the first definition</dd>
+                <dd>This is the second definition</dd>
+            </dl>
+            <h3 id="ordered-list">Ordered List</h3>
+            <ol type="1">
+                <li>List Item 1</li>
+                <li>List Item 2
+                    <ol type="A">
+                        <li>List Item 1</li>
+                        <li>List Item 2
+                            <ol type="a">
+                                <li>List Item 1</li>
+                                <li>List Item 2
+                                    <ol type="I">
+                                        <li>List Item 1</li>
+                                        <li>List Item 2
+                                            <ol type="i">
+                                                <li>List Item 1</li>
+                                                <li>List Item 2</li>
+                                                <li>List Item 3</li>
+                                            </ol>
+                                        </li>
+                                        <li>List Item 3</li>
+                                    </ol>
+                                </li>
+                                <li>List Item 3</li>
+                            </ol>
+                        </li>
+                        <li>List Item 3</li>
+                    </ol>
+                </li>
+                <li>List Item 3</li>
+            </ol>
+            <h3 id="unordered-list">Unordered List</h3>
+            <ul>
+                <li>List Item 1</li>
+                <li>List Item 2
+                    <ul>
+                        <li>List Item 1</li>
+                        <li>List Item 2
+                            <ul>
+                                <li>List Item 1</li>
+                                <li>List Item 2
+                                    <ul>
+                                        <li>List Item 1</li>
+                                        <li>List Item 2
+                                            <ul>
+                                                <li>List Item 1</li>
+                                                <li>List Item 2</li>
+                                                <li>List Item 3</li>
+                                            </ul>
+                                        </li>
+                                        <li>List Item 3</li>
+                                    </ul>
+                                </li>
+                                <li>List Item 3</li>
+                            </ul>
+                        </li>
+                        <li>List Item 3</li>
+                    </ul>
+                </li>
+                <li>List Item 3</li>
+            </ul>
+            <h3 id="details-summary">Details/Summary</h3>
+            <details>
+                <summary>What time is it when an elephant sits on a fence?</summary>
+                <p>Time to get a new fence!</p>
+            </details>
+            <h3 id="address">Address</h3>
+            <address>
+                Written by
+                <a href="mailto:webmaster@example.com">Jon Doe</a>
+                <br />Visit us at: <br />1313 Mockingbird Ln <br />Transylvannia, OR
+                90210 <br />United States of America
+            </address>
+            <h3 id="horizontal-rule">Horizontal Rule</h3>
+            <hr />
+            <h3 id="tables">Tables</h3>
+            <table>
+                <caption> Table Caption </caption>
+                <colgroup>
+                    <col />
+                    <col span="2" />
+                    <col span="2" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Table Heading 1</th>
+                        <th>Table Heading 2</th>
+                        <th>Table Heading 3</th>
+                        <th>Table Heading 4</th>
+                        <th>Table Heading 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Table Cell 1</td>
+                        <td>Table Cell 2</td>
+                        <td>Table Cell 3</td>
+                        <td>Table Cell 4</td>
+                        <td>Table Cell 5</td>
+                    </tr>
+                    <tr>
+                        <td>Table Cell 1</td>
+                        <td>Table Cell 2</td>
+                        <td>Table Cell 3</td>
+                        <td>Table Cell 4</td>
+                        <td>Table Cell 5</td>
+                    </tr>
+                    <tr>
+                        <td>Table Cell 1</td>
+                        <td>Table Cell 2</td>
+                        <td>Table Cell 3</td>
+                        <td>Table Cell 4</td>
+                        <td>Table Cell 5</td>
+                    </tr>
+                    <tr>
+                        <td>Table Cell 1</td>
+                        <td>Table Cell 2</td>
+                        <td>Table Cell 3</td>
+                        <td>Table Cell 4</td>
+                        <td>Table Cell 5</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Table Footer 1</th>
+                        <th>Table Footer 2</th>
+                        <th>Table Footer 3</th>
+                        <th>Table Footer 4</th>
+                        <th>Table Footer 5</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <h3 id="code">Code</h3>
+            <p>Keyboard input: <kbd>c</kbd><kbd>m</kbd><kbd>d</kbd></p>
+            <p>Inline Code: <code>system.out.println("Hello World")</code></p>
+            <p>Sample output:
+                <br><samp>Keyboard not found<br>Press F1 to continue&hellip;</samp>
+            </p>
+            <h3 id="pre-formated-text">Pre-Formatted Text</h3>
+            <pre>
+P R E F O R M A T T E D T E X T
+! " # $ % &amp; ' ( ) * + , - . /
+0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
+@ A B C D E F G H I J K L M N O
+P Q R S T U V W X Y Z [ \ ] ^ _
+` a b c d e f g h i j k l m n o
+p q r s t u v w x y z { | } ~
+            </pre>
+            <h3 id="inline-elements">Inline Elements</h3>
+            <p><a href="#">This is a text link</a></p>
+            <p><strong>Strong is used to indicate strong importance</strong></p>
+            <p><em>This text has added emphasis</em></p>
+            <p>The <b>b element</b> is stylistically different text from normal text, without any special importance.
+            </p>
+            <p>The <i>i element</i> is text that is offset from the normal text.</p>
+            <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation
+            </p>
+            <p><del>this text is deleted</del></p>
+            <p>and <ins>this text is inserted</ins></p>
+            <p><s>this text has a strikethrough</s></p>
+            <p>Superscript<sup>2</sup></p>
+            <p>Subscript for things like H<sub>2</sub>O</p>
+            <p><small>This small text is for fine print or something similar</small></p>
+            <p>Abbreviation: <abbr title="Hyper Text Markup Language">HTML</abbr></p>
+            <p><q cite="https://www.google.com">This is a short inline quotation.</q></p>
+            <p><cite>This is a citation.</cite></p>
+            <p>A dfn element, <dfn>validator</dfn> is a program that checks for syntax errors in code or documents.</p>
+            <p>The <mark>mark element</mark> indicates highlighted text</p>
+            <p>The <var>variable element</var>, such as <var>x</var> = <var>y</var>.</p>
+            <p>The time element: <time datetime="2022-08-17">August 17<sup>th</sup>, 2022</time></p>
+        </section>
+        <section id="embedded">
+            <h2 id="images">Images</h2>
+            <h3>Just an img</h3>
+            <p><img src="https://placekitten.com/300/300" alt="Photo of a kitten"></p>
+            <h3>Figure</h3>
+            <figure><img src="https://placekitten.com/400/400" alt="Photo of a kitten"></figure>
+            <h3>Figure + Figcaption</h3>
+            <figure>
+                <img src="https://placekitten.com/500/500" alt="Photo of a kitten">
+                <figcaption>Photo of a kitten with a figcaption <cite>and a cite</cite></figcaption>
+            </figure>
+            <h3>Figure + Picture</h3>
+            <figure>
+                <picture>
+                    <source srcset="https://placekitten.com/800/800" media="(min-width: 800px)">
+                    <img src="https://placekitten.com/800/800" alt="Photo of a kitten">
+                </picture>
+            </figure>
+            <h2>Background Images</h2>
+            <div style="background-image:url('https://picsum.photos/400/400'); width: 400px; height: 400px"></div>
+            <h3>Audio</h3>
+            <div>
+                <audio controls=""
+                    src="https://file-examples.com/storage/fe7f2d366f62febc79635e7/2017/11/file_example_OOG_1MG.ogg"></audio>
+            </div>
+            <h3>Canvas</h3>
+            <div>
+                <canvas style="border: 3px double brown">An alternative text describing what your canvas
+                    displays</canvas>
+            </div>
+            <h3>Meter</h3>
+            <div>
+                <meter value="2" min="0" max="10" title="2 out of 10">2 out of 10</meter>
+            </div>
+            <h3>Progress Bar</h3>
+            <div>
+                <progress>progress</progress>
+            </div>
+            <h3>Inline SVG</h3>
+            <div>
+                <svg viewbox="0 0 300 100" width="200px" height="200px" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="200" cy="200" r="200" stroke="red" fill="grey"></circle>
+                </svg>
+            </div>
+            <h3>IFrame</h3>
+            <div>
+                <iframe width="500" height="400"
+                    src="https://www.bing.com/maps/embed?h=400&w=500&cp=38.89668190370551~-77.03618289197448&lvl=15.05370210289362&typ=d&sty=r&src=SHELL&FORM=MBEDV8"></iframe>
+            </div>
+            <h3>Embed</h3>
+            <div>
+                <embed type="video/webm"
+                    src="https://file-examples.com/storage/fe7f2d366f62febc79635e7/2020/03/file_example_WEBM_1280_3_6MB.webm"
+                    width="300" height="200" title="The Earth rotating around its axis">
+            </div>
+        </section>
+        <section id="forms">
+            <h2>Form Elements</h2>
+            <form>
+                <fieldset id="textFields">
+                    <legend>Input Fields</legend>
+                    <label for="textInput">Name</label>
+                    <input type="text" id="textInput" minlength="10" maxlength="30" size="20"
+                        placeholder="Enter your name" autocomplete="name">
+                    <br>
+                    <label for="passwordInput">Password</label>
+                    <input type="password" id="passwordInput" minlength="10" placeholder="Type your secret password"
+                        autocomplete="current-password">
+                    <br>
+                    <label for="webAddress">Website</label>
+                    <input type="url" id="webAddress" pattern="(https?:\/\/(?:www\.|(?!www)).*" size="30"
+                        placeholder="https://www.google.com" autocomplete="url">
+                    <br>
+                    <label for="emailAddress">Email Address</label>
+                    <input type="email" id="emailAddress" pattern=".+@[a-zA-Z]{1,}\.[a-z]{2,}"
+                        placeholder="Enter your email address" autocomplete="email">
+                    <br>
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" placeholder="801-867-5309" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        autocomplete="tel">
+                    <br>
+                    <label for="searchField">Search</label>
+                    <input type="search" id="searchField" placeholder="Enter a search term">
+                    <button>Search</button>
+                    <br>
+                    <label for="fileInput">File Input</label>
+                    <input type="file" id="fileInput" accept="image/jpeg, image/png">
+                    <br>
+                </fieldset>
+                <fieldset id="selectFields">
+                    <legend>Select Menu</legend>
+                    <label for="selectOptions">Select Options</label>
+                    <select id="selectOptions">
+                        <optgroup label="Option Group">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="multipleSelect">Select Multiple</label>
+                    <select id="multipleSelect" multiple="multiple" size="4">
+                        <optgroup label="Option Group">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="dataList">Data List</label>
+                    <input list="fruit" id="dataList" name="datList">
+                    <datalist id="fruit">
+                        <option value="Apple">
+                        <option value="Orange">
+                        <option value="Strawberry">
+                        <option value="Kiwi">
+                        <option value="Banana">
+                    </datalist>
+                </fieldset>
+                <fieldset id="checkboxes">
+                    <legend>Checkboxes</legend>
+                    <label for="checkbox1">
+                        <input type="checkbox" name="checkbox" id="checkbox1" checked="checked">Choice 1
+                    </label>
+                    <br>
+                    <label for="checkbox2">
+                        <input type="checkbox" name="checkbox" id="checkbox2">Choice 2
+                    </label>
+                    <br>
+                    <label for="checkbox3">
+                        <input type="checkbox" name="checkbox" id="checkbox3">Choice 3
+                    </label>
+                    <br>
+                    <br>
+                    <input type="radio" name="ducks" id="radio1">
+                    <label for="radio1">Huey</label>
+                    <br>
+                    <input type="radio" name="ducks" id="radio2" checked="checked">
+                    <label for="radio2">Dewey</label>
+                    <br>
+                    <input type="radio" name="ducks" id="radio3">
+                    <label for="radio3">Louie</label>
+                    <br>
+                </fieldset>
+                <fieldset id="textareas">
+                    <legend>Text Areas</legend>
+                    <label for="textarea">Textarea</label>
+                    <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
+                </fieldset>
+                <fieldset id="html5">
+                    <legend>HTML5 Inputs</legend>
+                    <label for="colorInput">Color Input</label>
+                    <input type="color" id="colorInput" value="#000000">
+                    <br>
+                    <label for="numberInput">Number Input</label>
+                    <input type="number" id="numberInput" min="0" max="10" value="5">
+                    <br>
+                    <label for="rangeInput">Range Input</label>
+                    <input type="range" id="rangeInput" min="0" max="100" value="30" step="10">
+                    <br>
+                    <label for="dateInput">Date Input</label>
+                    <input type="date" id="dateInput" min="2000-01-01" max="2022-01-01" value="2011-01-01"
+                        autocomplete="bday">
+                    <br>
+                    <label for="monthInput">Month Input</label>
+                    <input type="month" id="monthInput" min="2000-01" value="2010-01">
+                    <br>
+                    <label for="weekInput">Week Input</label>
+                    <input type="week" id="weekInput" min="2000-W01" value="2005-W01">
+                    <br>
+                    <label for="timeInput">Time Input</label>
+                    <input type="time" id="timeInput" min="00:00" max="23:59" value="14:30">
+                    <br>
+                    <label for="dateTimeLocalInput">Date Time Local Input</label>
+                    <input type="datetime-local" id="dateTimeLocalInput" value="1970-01-01T00:00">
+                    <br>
+                </fieldset>
+                <fieldset id="buttons">
+                    <legend>Action Buttons</legend>
+                    <input type="submit" value="Submit">
+                    <br>
+                    <input type="button" value="Button">
+                    <br>
+                    <input type="reset" value="Reset">
+                    <br>
+                    <input type="submit" value="Submit Disabled" disabled="disabled">
+                    <br>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
