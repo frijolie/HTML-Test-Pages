@@ -75,15 +75,15 @@ Another Definition List Title
 * List Item 2
     * List Item 1
     * List Item 2
+        * List Item 1
+        * List Item 2
             * List Item 1
             * List Item 2
-                    * List Item 1
-                    * List Item 2
-                            * List Item 1
-                            * List Item 2
-                            * List Item 3
-                    * List Item 3
+                * List Item 1
+                * List Item 2
+                * List Item 3
             * List Item 3
+        * List Item 3
     * List Item 3
 * List Item 3
 
@@ -111,12 +111,12 @@ Another Definition List Title
 
 ### Tables {#tables}
 
-|Table Heading 1|Table Heading 2|Table Heading 3|Table Heading 4|Table Heading 5|
+|Heading 1|Heading 2|Heading 3|Heading 4|Heading 5|
 |---|---|---|---|---|
-|Table Cell 1|Table Cell 2|Table Cell 3|Table Cell 4|Table Cell 5|
-|Table Cell 1|Table Cell 2|Table Cell 3|Table Cell 4|Table Cell 5|
-|Table Cell 1|Table Cell 2|Table Cell 3|Table Cell 4|Table Cell 5|
-|Table Cell 1|Table Cell 2|Table Cell 3|Table Cell 4|Table Cell 5|
+|Cell 1|Cell 2|Cell 3|Cell 4|Cell 5|
+|Cell 1|Cell 2|Cell 3|Cell 4|Cell 5|
+|Cell 1|Cell 2|Cell 3|Cell 4|Cell 5|
+|Cell 1|Cell 2|Cell 3|Cell 4|Cell 5|
 
 ### Code {#code}
 
@@ -199,20 +199,16 @@ The time element: <time datetime="2022-08-17">August 17^th^, 2022</time>
 
 ## Images {#images}
 
-### Just an img
-
-!["Photo of a kitten"]("https://placekitten.com/300/300")
-
 ### Figure
 
 <figure>
-    <img src="https://placekitten.com/400/400" alt="Photo of a kitten">
+    <img src="https://picsum.photos/400/400" alt="Photo of a kitten">
 </figure>
 
 ### Figure + Figcaption
 
 <figure>
-    <img src="https://placekitten.com/500/500" alt="Photo of a kitten">
+    <img src="https://picsum.photos/500/500" alt="Photo of a kitten">
     <figcaption>Photo of a kitten with a figcaption <cite>and a cite</cite></figcaption>
 </figure>
 
@@ -220,10 +216,33 @@ The time element: <time datetime="2022-08-17">August 17^th^, 2022</time>
 
 <figure>
     <picture>
-        <source srcset="https://placekitten.com/800/800" media="(min-width: 800px)">
-        <img src="https://placekitten.com/800/800" alt="Photo of a kitten">
+        <source srcset="https://picsum.photos/800/800" media="(min-width: 800px)">
+        <img src="https://picsum.photos/800/800" alt="Photo of a kitten">
     </picture>
 </figure>
+
+## Embedded Content {#embedded-content}
+
+### Audio
+<audio controls src="https://file-examples.com/storage/fe6a5406fa63112369b75a2/2017/11/file_example_OOG_1MG.ogg" type="audio/ogg"></audio>
+
+### Video
+
+<video controls src="https://file-examples.com/storage/fe6a5406fa63112369b75a2/2018/04/file_example_OGG_480_1_7mg.ogg" type="video/ogg"></video>
+
+## Meter
+
+<meter value="5" min="0" max="10">5 out of 10</meter>
+
+## Progress
+
+<progress value="50" max="100">50%</progress>
+
+## Inline SVG
+
+<svg width="100px" height="100px">
+    <circle cx="100" cy="100" r="100" fill="#1fa3ec"></circle>
+</svg>
 
 ## Form Elements
 
